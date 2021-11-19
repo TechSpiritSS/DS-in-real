@@ -1,0 +1,11 @@
+canvas {
+  border: 5px solid #000000;
+  background-image: url(Assets/back.jpeg);
+  background-size: cover;
+}
+
+@media screen and (max-width: 600px) {
+  canvas {
+    border: 0px solid #000000;
+  }
+}
